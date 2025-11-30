@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="etch.css">
+</head>
+<body>
+    <div class="forput">
+    <label id="label01" for="grid">How big is the grid? (X x X): </label>
+    <input type="text" id="grid">
+    <label id="label02" for="resolution">Resolution(Xx): </label>
+    <input type="text" id="resolution">
+
+    <button id="submit">Submit</button>
+    <button id="reset" style="display: none;">Reset</button>
+    <div id="option">
+        <label>Color:</label>
+        <input type="radio" id="black" value="black"  name="color">
+        <label for="black">Black</label>
+        <input type="radio" id="white" value="white"  name="color">
+        <label for="white">Erase</label>
+        <input type="radio" id="red" value="red"  name="color">
+        <label for="red">Red</label>
+        <input type="radio" id="blue" value="blue" name="color">
+        <label for="blue">Blue</label>
+        <input type="radio" id="green" value="green" name="color">
+        <label for="green">Green</label>
+        <input type="radio" id="yellow" value="yellow" name="color">
+        <label for="yellow">Yellow</label>
+    </div>
+    </div>
+    <div id="container">
+        
+    </div>
+    <script src="etch.js"></script>
+</body>
+</html>
